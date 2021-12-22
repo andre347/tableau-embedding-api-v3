@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tableau Embedding API v3</title>
+    <script
+      type="module"
+      src="https://embedding.tableauusercontent.com/tableau.embedding.3.0.0.min.js"
+    ></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Tableau Embedding API v3</h1>
+      <tableau-viz
+        id="tableauViz"
+        src="https://public.tableau.com/views/LearnEmbeddedAnalytics/SalesOverviewDashboard"
+        device="desktop"
+        toolbar="bottom"
+      >
+        <viz-filter field="Region" value="Central" />
+      </tableau-viz>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
