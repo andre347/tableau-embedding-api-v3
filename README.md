@@ -1,4 +1,4 @@
-# Example of using V3 the Tableau Embedding API
+# Example of the Tableau Embedding API V3
 
 <img alt="Logo" src="https://res.cloudinary.com/dmim37dbf/image/upload/v1640258121/YouTube%20Thumbnails/embedding-v3-api.png" width="600%" />
 
